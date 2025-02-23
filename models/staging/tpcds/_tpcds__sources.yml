@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: tpc-ds
+    description: tpc ds model
+    database: dbt-learning-project-451408
+    schema: raw_tpcds_data
+    tables:
+      - name: customer
+        description: Each row in this dimension represents a customer
