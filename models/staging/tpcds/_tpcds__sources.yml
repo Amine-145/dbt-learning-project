@@ -22,8 +22,4 @@ sources:
           description: col_description
           tests:
            - accepted_values:
-                values: ['Y', 'N']
-            
-        
-        
-        
+                values: ['Y', 'N']     
